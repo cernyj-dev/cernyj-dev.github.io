@@ -2740,7 +2740,9 @@ input[type="radio"]:focus+label:before {
 .image.fit {
 	display: block;
 	margin: 2.5rem 0;
-	width: 100%;
+	max-width: 28em;
+	height: 17em;
+	object-fit: fill;
 }
 
 .image.fit:first-child {
