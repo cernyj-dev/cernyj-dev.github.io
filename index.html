@@ -77,25 +77,34 @@
 			<!-- Sekce technologie -->
 			<section class="technologies">
 				<header class="major">
-					<h2>Technologie a jazyky</h2>
+					<h2>Technologie, jazyky, schopnosti</h2>
 				</header>
 				<ul class="tech-list">
 					<li>C++</li>
 					<li>C</li>
 					<li>DevOps</li>
+					<li>Docker</li>
 					<li>Python</li>
-					<li>PHP (Symfony)</li>
+					<li>Tkinter</li>
+					<li>Multithreading</li>
+					<li>PHP</li>
+					<li>Symfony</li>
 					<li>HTML & CSS</li>
 					<li>JavaScript</li>
 					<li>TypeScript</li>
 					<li>SQL</li>
 					<li>Git</li>
-					<li>Gitlab & GitHub</li>
+					<li>GitLab CI/CD</li>
 					<li>LaTeX</li>
 					<li>Unified Modeling Language (UML)</li>
 					<li>OntoUml</li>
 					<li>BPMN</li>
+					<li>DEMO</li>
+					<li>OCD</li>
 					<li>GanttProject</li>
+					<li>Plánování</li>
+					<li>Informační systémy</li>
+					<li>Projektové řízení</li>
 
 				</ul>
 			</section>
@@ -107,12 +116,18 @@
 
 				<article>
 					<header>
-						<h2><a href="#">TMB – Cityscape</h2>
+						<h2>TMB – Cityscape</h2>
 					</header>
 					<a href="#" class="image fit"><img src="images/tactile-matrix-box.eefd7aed.jpg" alt="" /></a>
-					<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-						Pellentesque
-						venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+					<p><strong>Python, Tkinter, Plánování, Projektové řízení</strong> – Semestrální projekt, který
+						navazoval na
+						diplomovou práci jiného studenta zabývající se postavením Tactile Matrix Box (TMB) na území
+						fakulty. TMB zpracovával data o ArUcO kartičkách (připomínající QR kód) na stole pomocí kamerky.
+						Náš tým vytvořil Python server, který tato data přijímal a následně pomocí Tkinter Python
+						knihovny vytvořil logiku za vyhodnocováním kartiček a zobrazoval budovy a vyhodnocování zpět na
+						stůl
+						pomocí projektoru.
+					</p>
 					<ul class="actions special">
 						<li><a href="https://github.com/cernyj-dev/TMB-Cityscape" class="button">Repozitář projektu</a>
 						</li>
@@ -120,24 +135,46 @@
 				</article>
 				<article>
 					<header>
-						<h2><a href="#">FIT-Excel</a></h2>
+						<h2>FIT-Excel</h2>
 					</header>
 					<a href="#" class="image fit"><img src="images/excel.jpg" alt="" /></a>
-					<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-						Pellentesque
-						venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+					<p><strong>C++</strong> – Semestrální projekt, ve kterém jsem vytvořil zjednodušenou verzi Excelu.
+						Program umožňoval efektivně ukládat data do tabulky. Pokud se jednalo o výraz (začínající s
+						"="),
+						pak se uložil efektivně do polymorfní stromové struktury AST a budoucí vyhodnocování pak bylo
+						rychlejší než opakované volání parseru. Program také umožňoval uložení tabulky v hexadecimální
+						podobě do souboru a následné načtení tabulky ze souboru. </p>
 					<ul class="actions special">
 						<li><a href="https://github.com/cernyj-dev/FITexcel" class="button">Repozitář projektu</a></li>
 					</ul>
 				</article>
 				<article>
 					<header>
-						<h2><a href="#">Svářecí společnost</a></h2>
+						<h2>Zastávky</h2>
+					</header>
+					<a href="#" class="image fit"><img src="images/MHD.jpg" alt="" /></a>
+					<p><strong>JavaScript</strong> – Kód řeší načtení dat o zastávkách MHD, následné vyhledávání mezi
+						nimi a zobrazení informací o nástupištích a linkách, případně i návrhy podobných výsledků.
+						Používá se přitom manipulace s DOMem a asynchronní funkce pro načtení dat.
+					</p>
+					<ul class="actions special">
+						<li><a href="https://github.com/cernyj-dev/PJS-hw08-Stops" class="button">Repozitář projektu</a>
+						</li>
+					</ul>
+				</article>
+				<article>
+					<header>
+						<h2>Svářecí společnost</h2>
 					</header>
 					<a href="#" class="image fit"><img src="images/welding.jpg" alt="" /></a>
-					<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-						Pellentesque
-						venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+					<p><strong>C++, Multithreading</strong> – Program, který na začátku dostane seznam zákazníků a
+						dodavatelů. Každý zákazník pak dostane vlastní obslužné vlákno, které od něj vyzvedne poptávku
+						na plechy o určité velikosti. Obslužné vlákno získá ceníky od dodavatelů k zadanému materiálu a
+						předá objednávku pracovním vláknům. Pracovní vlákna pak za použití dynamického programování
+						efektivně spočítají tu nejnižší cenu, za kterou jsme schopni daný plech svařit z plechů
+						dodavatelů. Pracovní vlákna pracují
+						souběžně a lze obsloužit několik zákazníků najednou.
+					</p>
 					<ul class="actions special">
 						<li><a href="https://github.com/cernyj-dev/WeldingCompany" class="button">Repozitář projektu</a>
 						</li>
@@ -145,38 +182,36 @@
 				</article>
 				<article>
 					<header>
-						<h2><a href="#">Evidence zaměstnanců</a></h2>
+						<h2>Evidence zaměstnanců</h2>
 					</header>
 					<a href="#" class="image fit"><img src="images/employees.jpg" alt="" /></a>
-					<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-						Pellentesque
-						venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+					<p><strong>PHP, Symfony</strong> – V tomto projektu používám PHP framework Symfony k vytvoření
+						interaktivní webové aplikace k evidenci zaměstnanců. Zaměstnance lze vyhledávat, přidávat a
+						upravovat. Každý zaměstnanec má funkce/role a účty, které lze
+						přidávat, upravovat a mazat. Projekt využívá MVC architekturu.
+					</p>
 					<ul class="actions special">
 						<li><a href="https://github.com/cernyj-dev/Evidence-zamestnancu" class="button">Repozitář
 								projektu</a></li>
 					</ul>
 				</article>
+
 				<article>
 					<header>
-						<h2><a href="#">Polymorfní iterátory</a></h2>
+						<h2>Letový deník</h2>
 					</header>
-					<a href="#" class="image fit"><img src="images/binary_tree.png" alt="" /></a>
-					<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-						Pellentesque
-						venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-					<ul class="actions special">
-						<li><a href="https://github.com/cernyj-dev/Polymorfni-Iteratory-v-binarnim-stromu"
-								class="button">Repozitář projektu</a></li>
-					</ul>
-				</article>
-				<article>
-					<header>
-						<h2><a href="#">Letový deník</a></h2>
-					</header>
-					<a href="#" class="image fit"><img src="images/devops.jpg" alt="" /></a>
-					<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-						Pellentesque
-						venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+					<a href="#" class="image fit"><img src="images/planes.jpg" alt="" /></a>
+					<p><strong>GitLab CI/CD, Docker, DevOps</strong> – V tomto cvičném Java projektu jsem si osvojil
+						práci s GitLab CI/CD pro automatizované sestavení projektu a vytvoření Docker image a
+						kontejneru, který byl uložen v GitLab Container Registry.
+
+						V prostředí OpenStack jsem následně využil Ansible k vytvoření Playbooku, který jsem spustil na
+						řídící virtuálce ve školním cloudu. Ten připravil prostředí cílové (řízené) virtuálky, přihlásil
+						se ke zmíněnému registry a stáhl potřebný Docker image.
+
+						Z něj se následně spustil kontejner, ke kterému bylo možné se připojit přes IP adresu virtuálky
+						a plnohodnotně tak využívat běžící Java aplikaci.
+					</p>
 					<ul class="actions special">
 						<li><a href="https://github.com/cernyj-dev/FlightLog-DevOps" class="button">Repozitář
 								projektu</a></li>
