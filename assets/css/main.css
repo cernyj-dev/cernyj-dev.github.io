@@ -3311,14 +3311,15 @@ table.alt tbody tr td {
 
 }
 
+/*
 @media screen and (max-width: 480px) {
 
-	.pagination .page,
+	.pagination .page
+	,
 	.pagination .extra {
 		display: none;
 	}
-
-}
+}*/
 
 .pagination a,
 .pagination span {
@@ -3954,6 +3955,13 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 	text-align: center;
 	padding: 2rem 8rem 1rem 8rem;
 }
+
+@media screen and (max-width: 768px) {
+	#main>.post.featured {
+		padding: 2rem 2rem 1rem 2rem;
+	}
+}
+
 
 @media screen and (max-width: 1280px) {
 
@@ -4904,6 +4912,14 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 	font-weight: bold;
 	border-radius: 12px;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+@media screen and (max-width: 600px) {
+	.short-intro {
+		padding: 1rem;
+		font-size: 1rem;
+		max-width: 100%;
+	}
 }
 
 .tech-list {
