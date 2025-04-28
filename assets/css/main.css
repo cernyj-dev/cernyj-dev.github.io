@@ -223,7 +223,7 @@ html {
 @media screen and (max-width: 1280px) {
 
 	html {
-		font-size: 10pt;
+		font-size: 11pt;
 	}
 
 }
@@ -4895,11 +4895,12 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 	/* mezera mezi fotkou a textem */
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
 	.intro-section {
 		flex-direction: column;
 		align-items: center;
 		text-align: center;
+		gap: 0rem;
 	}
 }
 
@@ -4972,4 +4973,13 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 
 .language-switch li a:hover {
 	background: #ccc;
+}
+
+
+.unstyled-list {
+	all: unset;
+	list-style: disc;
+	/* or none, or whatever you want */
+	padding-left: 20px;
+	/* needed if you want bullets indented */
 }
